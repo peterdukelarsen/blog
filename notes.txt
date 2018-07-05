@@ -1,0 +1,56 @@
+==========getting started=============
+conda create -n django_blog_env python=3.6 anaconda
+source activate django_blog_env
+conda install django
+pip install mysqlclient
+python manage.py runserver
+go to: http://127.0.0.1:8000/posts/
+
+
+==========conda virtual environment===============
+Creating the virtual env:
+conda create -n django_blog_env python=3.6 anaconda
+
+activate this environment, use:
+# > source activate django_blog_env
+#
+# To deactivate this environment, use:
+# > source deactivate django_blog_env
+#
+
+===========MySql=========
+root@localhost: hello
+hello@localhost: root
+
+Creating User and Database:
+	1. create user 'hello'@'localhost' identified by 'root';
+    2. create database helloworld;
+    	a. show databases; 
+	3. grant all privileges on helloworld.* to 'hello'@'localhost' with grant option;
+		a. show grants for 'hello'@'localhost';
+
+Checking Port: SHOW GLOBAL VARIABLES LIKE 'PORT';
+
+Getting in and using a database:
+	1. login: 
+		a. mysql -u hello -p //hello is the username
+		b. type in password
+	2. select your db:
+		a. show databases;
+		b. use helloworld; //helloworld is the database name
+	3. get oriented
+		a. show tables;
+		b. describe helloworld_post; 
+			i. helloworld_post is what django named the Post table
+
+==========Websites Used===========
+First application: https://scotch.io/tutorials/build-your-first-python-and-django-application
+
+'python manage.py makemigrations blog'
+Post data model from: https://tutorial.djangogirls.org/en/django_models/
+
+==========Django =================
+superuser: plarsen: 'roottoor'
+
+==========
+
