@@ -19,7 +19,6 @@ cffi==1.10.0
 chardet==3.0.3
 click==6.7
 cloudpickle==0.2.2
-clyent==1.2.2
 colorama==0.3.7
 contextlib2==0.5.5
 cryptography==1.8.1
