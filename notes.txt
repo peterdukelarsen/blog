@@ -49,6 +49,8 @@ First application: https://scotch.io/tutorials/build-your-first-python-and-djang
 'python manage.py makemigrations blog'
 Post data model from: https://tutorial.djangogirls.org/en/django_models/
 
+Heroku deployment and configuration management: https://simpleisbetterthancomplex.com/tutorial/2016/08/09/how-to-deploy-django-applications-on-heroku.html
+
 ==========Django =================
 superuser: plarsen: 'roottoor'
 
