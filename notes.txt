@@ -51,8 +51,8 @@ Post data model from: https://tutorial.djangogirls.org/en/django_models/
 
 Heroku deployment and configuration management: https://simpleisbetterthancomplex.com/tutorial/2016/08/09/how-to-deploy-django-applications-on-heroku.html
 
-==========Django =================
-superuser: plarsen: 'roottoor'
+Markdown syntax highlighting: https://www.ignoredbydinosaurs.com/posts/275-easy-markdown-and-syntax-highlighting-django
 
-==========
-
+========== Adding new requirements ===========
+pip install <requirement>
+pip freeze > requirements.txt 

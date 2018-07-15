@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load markdownify %}
 <html>
     <head>
         <title>Pete's Blog</title>
@@ -15,7 +16,7 @@
             <div>
                 <h4><a href="">{{ post.title }}</a></h4>
                 <p>published: {{ post.published_date }}</p>
-                <p>{{ post.text|linebreaksbr }}</p>
+                <p>{{ post.text | markdown | safe }}</p>
             </div>
         {% endfor %}
     </body>
