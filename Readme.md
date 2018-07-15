@@ -7,4 +7,5 @@
 4. `pip install -r requirements.txt`
 5. `export DEBUG=true`
 6. `export SECRET_KEY=1`
-7. 
+7. `python manage.py migrate`
+8. `python manage.py runserver`
