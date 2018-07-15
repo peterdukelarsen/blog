@@ -1,7 +1,7 @@
 *.pyc
 *~
 __pycache__
-blogvenv
+blogenv
 db.sqlite3
 /static
 .DS_Store
