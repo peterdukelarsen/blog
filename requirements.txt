@@ -3,6 +3,7 @@ Django==1.11.14
 gunicorn==19.9.0
 mistune==0.8.3
 psycopg2==2.7.5
+Pygments==2.2.0
 python-decouple==3.1
 pytz==2018.5
 whitenoise==3.3.1
