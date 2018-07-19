@@ -55,4 +55,7 @@ Markdown syntax highlighting: https://www.ignoredbydinosaurs.com/posts/275-easy-
 
 ========== Adding new requirements ===========
 pip install <requirement>
-pip freeze > requirements.txt 
+pip freeze > requirements.txt
+
+============ Heroku ======================
+heroku run python manage.py migrate // migrate using heroku cli

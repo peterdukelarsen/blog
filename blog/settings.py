@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'helloworld' 
+    'posts'
 ]
 
 MIDDLEWARE = [
@@ -141,6 +141,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 STATIC_URL = os.path.join(BASE_DIR, 'static/')
 
-STATICFILES_DIRS = ( os.path.join('helloworld/static'), )
+STATICFILES_DIRS = ( os.path.join('posts/static'), )
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
